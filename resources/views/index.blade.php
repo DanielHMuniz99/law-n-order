@@ -353,11 +353,11 @@
          </div>
          <div class="hero hero-light hero-bkg-sand-20 hero-has-bg-image hero-home hero-home-center js-hero-section">
             <picture>
-               <img width="100%" height="100%" src="{{ asset('images/1d714f14-6a31-4bcb-9cfd-18e1d3c5d314.jpeg') }}" />
+               <img width="100%" height="100%" src="{{ asset('images/home.png') }}" />
                {{-- <source srcset="https://ftr.imgix.net/6wR29uIxTh28W5hxYWdYj8/a522984bda675f76c91bf80b50ee3757/homepage-pingzhu-hero-bg-opt-v2-mobile.jpg?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=360&s=e45d1bf4ac645454ec20875a77d60fb9 360w,https://ftr.imgix.net/6wR29uIxTh28W5hxYWdYj8/a522984bda675f76c91bf80b50ee3757/homepage-pingzhu-hero-bg-opt-v2-mobile.jpg?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=720&s=bf14be3697e2798c0dc8c6c8c7abd6ba 720w"> --}}
                {{-- <img loading="auto" src="{{ asset('images/1d714f14-6a31-4bcb-9cfd-18e1d3c5d314.jpeg') }}" alt="Go farther with the #1 trusted VPN." class="home-bg-image"> --}}
             </picture>
-            <div class="container hero-content-wrapper">
+            {{-- <div class="container hero-content-wrapper">
                <div class="hero-text-block">
                   <div class="column-heading">
                      <h1 class="jumbo">(( text_50 ))</h1>
@@ -372,8 +372,8 @@
                      <p>(( text_53 ))</p>
                   </div>
                </div>
-               {{-- <div class="hero-img-block"><img loading="eager" width="470" src="/" alt="Main image"></div> --}}
-            </div>
+               <div class="hero-img-block"><img loading="eager" width="470" src="/" alt="Main image"></div>
+            </div> --}}
             <!-- <div class="scrolldown-arrow-wrapper js-arrow-next-section-wrapper">
                <a href="index.html#" class="scrolldown-arrow js-arrow-next-section">
                   <span class="xv-icon xv-icon-arrow-down">
@@ -384,231 +384,13 @@
                </a>
             </div> -->
          </div>
-         <section class="block-group">
-            <section class="two-col-content-m-block block-right fixed-width">
-               <div class="container">
-                  <div class="row">
-                    <div class="column-image">
-                         <img loading="lazy" width="480" src="https://ftr.imgix.net/2FqWXTKJh6g8PxBeOWwL1s/3a171e98ef364e47b22d0b90ef259478/unexposed-internet-lamp-opt.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=480&s=48c2e43abd50940de838c20e9be55c1a" class="img-block">
-                    </div>
-                     <div class="column-content">
-                        <div class="txt-left">
-                           <h2>(( text_54 ))</h2>
-                        </div>
-                        <div class="subheading-text">
-                           <p>(( text_55 ))</p>
-                        </div>
-                        <div class="subcontent-text">
-                           <div class="button-group"><a href="https://www.expressvpn.com/order" target="_self" class="btn primary">(( text_56 ))</a></div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </section>
-            <section class="two-col-content-m-block block-left fixed-width">
-               <div class="container">
-                  <div class="row">
-                     <div class="column-image"><img loading="lazy" width="480" src="https://ftr.imgix.net/2FqWXTKJh6g8PxBeOWwL1s/3a171e98ef364e47b22d0b90ef259478/unexposed-internet-lamp-opt.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=480&s=48c2e43abd50940de838c20e9be55c1a" srcset="https://ftr.imgix.net/2FqWXTKJh6g8PxBeOWwL1s/3a171e98ef364e47b22d0b90ef259478/unexposed-internet-lamp-opt.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=480&s=48c2e43abd50940de838c20e9be55c1a 480w,https://ftr.imgix.net/2FqWXTKJh6g8PxBeOWwL1s/3a171e98ef364e47b22d0b90ef259478/unexposed-internet-lamp-opt.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=720&s=3c0d1ff289a55e693e2d29506993c13b 720w" alt="A hanging lamp shining over 2 internet browser windows but nothing is exposed" class="img-block"></div>
-                     <div class="column-content">
-                        <div class="txt-left">
-                           <h2>(( text_57 ))<span class="breaker"> </span>(( text_58 ))</h2>
-                        </div>
-                        <div class="subheading-text">
-                           <p>(( text_59 ))</p>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </section>
-            <section class="two-col-content-m-block block-right fixed-width">
-               <div class="container">
-                  <div class="row">
-                     <div class="column-image"><img loading="lazy" width="480" src="https://ftr.imgix.net/4Hq0c6NKQtQpx4YOqPQCSB/d83bf26253974e69bdbeeed208d912ac/extend-your-coverage-with-a-vpn.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=480&s=1301ac02b0b21c0fe213187b5f022730" srcset="https://ftr.imgix.net/4Hq0c6NKQtQpx4YOqPQCSB/d83bf26253974e69bdbeeed208d912ac/extend-your-coverage-with-a-vpn.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=480&s=1301ac02b0b21c0fe213187b5f022730 480w,https://ftr.imgix.net/4Hq0c6NKQtQpx4YOqPQCSB/d83bf26253974e69bdbeeed208d912ac/extend-your-coverage-with-a-vpn.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=720&s=851aad461e18fd68578b30d729d1be01 720w" alt="Laptops and device with a checkmark in a speech bubble." class="img-block"></div>
-                     <div class="column-content">
-                        <div class="txt-left">
-                           <h2>(( text_60 ))<span class="breaker"> </span>(( text_61 ))</h2>
-                        </div>
-                        <div class="subheading-text">
-                           <p>(( text_62 ))</p>
-                           <div class="richtext-custom linked-images-wrapper">
-                              <div class="richtext-custom linked-image"><a href="https://www.expressvpn.com/vpn-software/vpn-windows" target="_self" rel><img src="https://images.ctfassets.net/u6u9ehxmteql/47HvG4QYSliQNfni1TGUNM/e850e56128f956dacf6cb1e00161adbf/windows-logo.svg" alt="windows-icon"></a></div>
-                              <div class="richtext-custom linked-image"><a href="https://www.expressvpn.com/vpn-software/vpn-mac" target="_self" rel><img src="https://images.ctfassets.net/u6u9ehxmteql/15zuyQR2s7nvN9N8GkdPRX/97d069f0366ed46b3f949be4bb2e4822/apple-logo.svg" alt="apple-icon"></a></div>
-                              <div class="richtext-custom linked-image"><a href="https://www.expressvpn.com/vpn-software/vpn-android" target="_self" rel><img src="https://images.ctfassets.net/u6u9ehxmteql/5GEKBnNE2F7tcvtDJecnJk/ae8226d02e75ae2aefee81769fa40ce7/android-logo.svg" alt="android-icon"></a></div>
-                              <div class="richtext-custom linked-image"><a href="https://www.expressvpn.com/vpn-software/vpn-ios" target="_self" rel><img src="https://images.ctfassets.net/u6u9ehxmteql/5aw7AoUSofVVVUrt4oGmZh/fa3fe639eac4049cf52840cfa05a4a72/ios-logo.svg" alt="ios-icon"></a></div>
-                              <div class="richtext-custom linked-image"><a href="https://www.expressvpn.com/vpn-software/vpn-linux" target="_self" rel><img src="https://images.ctfassets.net/u6u9ehxmteql/5wrRvLy05T6IXL11I3TSdH/6aacd544961a7b9e2632a640ce008d20/linux-logo.svg" alt="linux-icon"></a></div>
-                              <div class="richtext-custom linked-image"><a href="https://www.expressvpn.com/vpn-software/vpn-router" target="_self" rel><img src="https://images.ctfassets.net/u6u9ehxmteql/1tmtFH0eSbO81T1n7GEwVj/9ba90274e3135772b6ef0d33ef849091/router-icon.svg" alt="Router-icon"></a></div>
-                           </div>
-                           <p><a href="https://www.expressvpn.com/vpn-software">(( text_63 ))</a></p>
-                        </div>
-                        <div class="subcontent-text">
-                           <div class="button-group"><a href="https://www.expressvpn.com/order" target="_self" class="btn primary">(( text_64 ))</a></div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </section>
-            <section class="three-col-features">
-               <div class="container">
-                  <div class="three-col-features-heading txt-center"></div>
-                  <div class="three-col-features-grid txt-center">
-                     <div class="features-row">
-                        <div class="feature-image">
-                            <img loading="lazy" width="440" src="https://ftr.imgix.net/6okBylTKqGv0FRM9yHPXs1/4a466e256a43ce031b3e0ebb0a1dbe28/serious-security.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=440&s=03916fc216e037c4337d577eb77127f4" srcset="https://ftr.imgix.net/6okBylTKqGv0FRM9yHPXs1/4a466e256a43ce031b3e0ebb0a1dbe28/serious-security.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=440&s=03916fc216e037c4337d577eb77127f4 440w,https://ftr.imgix.net/6okBylTKqGv0FRM9yHPXs1/4a466e256a43ce031b3e0ebb0a1dbe28/serious-security.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=720&s=bfb3248b665ab05391c3ed97a5d26f4d 720w" alt="Secure green lock.">
-                        </div>
-                        <div class="feature-heading">
-                           <h3>(( text_65 ))</h3>
-                        </div>
-                        <div class="feature-text">
-                           <p>(( text_66 ))</p>
-                        </div>
-                        <div class="feature-image"><img loading="lazy" width="440" src="https://ftr.imgix.net/5F2ySeLBognoZIJQNjyAot/71dd6fe83c1cc08ffa2dacde0759e39e/be-anywhere.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=440&s=cb038f2398ef8c5b33352a2d14590673" srcset="https://ftr.imgix.net/5F2ySeLBognoZIJQNjyAot/71dd6fe83c1cc08ffa2dacde0759e39e/be-anywhere.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=440&s=cb038f2398ef8c5b33352a2d14590673 440w,https://ftr.imgix.net/5F2ySeLBognoZIJQNjyAot/71dd6fe83c1cc08ffa2dacde0759e39e/be-anywhere.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=720&s=3f84a447b3fc990628ec0e11e89e641f 720w" alt="Be anywhere globe location marker."></div>
-                        <div class="feature-heading">
-                           <h3>(( text_67 ))</h3>
-                        </div>
-                        <div class="feature-text">
-                           <p>(( text_68 ))</p>
-                        </div>
-                        <div class="feature-image"><img loading="lazy" width="440" src="https://ftr.imgix.net/uoPgq1HAqZRS3jE7tdH0t/b4a797aa617cc7cbc03545217687fad9/blazing-fast-speeds.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=440&s=52a021dbca8531a66c068b5a01ec498b" srcset="https://ftr.imgix.net/uoPgq1HAqZRS3jE7tdH0t/b4a797aa617cc7cbc03545217687fad9/blazing-fast-speeds.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=440&s=52a021dbca8531a66c068b5a01ec498b 440w,https://ftr.imgix.net/uoPgq1HAqZRS3jE7tdH0t/b4a797aa617cc7cbc03545217687fad9/blazing-fast-speeds.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=720&s=3769fd7122b6b19da2e9746f14168e72 720w" alt="Speedometer."></div>
-                        <div class="feature-heading">
-                           <h3>(( text_69 ))</h3>
-                        </div>
-                        <div class="feature-text">
-                           <p>(( text_70 ))</p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="three-col-features-footer">
-                     <div class="subcontent-text txt-center">
-                        <p><a href="https://www.expressvpn.com/features">(( text_71 ))</a></p>
-                     </div>
-                  </div>
-               </div>
-            </section>
-         </section>
-         <section class="testimonials-home">
-            <div class="container">
-               <div class="two-column text-center">
-                  <h2>(( text_79 ))<span class="breaker"> </span>(( text_80 ))</h2>
-               </div>
-            </div>
-            <div class="tab-wrapper">
-               <ul class="tab-list tab-block" role="tablist">
-                  <li role="category" class="active" data-label="perfil"><a aria-controls="perfil" data-toggle="tab" role="tab">Perfil</a></li>
-                  <li role="category" data-label="experiencia"><a aria-controls="experiencia" data-toggle="tab" role="tab">Experiência</a></li>
-                  <li role="category" data-label="biografia"><a aria-controls="biografia" data-toggle="tab" role="tab">Biografia</a></li>
-               </ul>
-            </div>
-            <div class="container">
-               <div class="tab-content">
-                  <div class="tab-pane" role="tabpanel">
-                     <div class="cards">
-                        <div class="cards-col perfil">
-                           <div class="home-card home-card-vertical-middle">
-                              <div class="text-center">
-                                 <div class="rating">
-                                    <div><img loading="lazy" width="140" src="https://ftr.imgix.net/1vTkJi7s1n9M6feO4zO9bT/d0d791acdd50a22ad37dbe1f5bc7ca49/logo-trustpilot.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=140&s=974fd93bbf14fb837675b609e7a22598" srcset="https://ftr.imgix.net/1vTkJi7s1n9M6feO4zO9bT/d0d791acdd50a22ad37dbe1f5bc7ca49/logo-trustpilot.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=140&s=974fd93bbf14fb837675b609e7a22598 140w,https://ftr.imgix.net/1vTkJi7s1n9M6feO4zO9bT/d0d791acdd50a22ad37dbe1f5bc7ca49/logo-trustpilot.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=280&s=6e334edc73d7ec053e1372f7866d4b71 280w" alt="Trustpilot logo."></div>
-                                    <img loading="lazy" width="134" src="https://ftr.imgix.net/2rQbCtfRvpXRJaYY6kBclk/e933ddce72d217b63039d5f0ce83f3b9/trustpilot-rating-4point5_3x.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=134&s=0a02c361ca217bd1d7567dbd6be74a57" srcset="https://ftr.imgix.net/2rQbCtfRvpXRJaYY6kBclk/e933ddce72d217b63039d5f0ce83f3b9/trustpilot-rating-4point5_3x.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=134&s=0a02c361ca217bd1d7567dbd6be74a57 134w,https://ftr.imgix.net/2rQbCtfRvpXRJaYY6kBclk/e933ddce72d217b63039d5f0ce83f3b9/trustpilot-rating-4point5_3x.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=268&s=0b86e0a8fa226aae3f5f5b880f7fedba 268w" alt="Trustpilot logo.">
-                                    <p>(( text_84 ))</p>
-                                 </div>
-                                 <hr>
-                                 <div class="rating">
-                                    <div><img loading="lazy" width="145" src="https://ftr.imgix.net/1M9rXiS2D3MRleeMjlRR4H/113eb68b301e9ad8e878734ea87925e8/logo-app-store__1_.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=145&s=6d86a5cced84f0d1c291e8f7f3766d94" srcset="https://ftr.imgix.net/1M9rXiS2D3MRleeMjlRR4H/113eb68b301e9ad8e878734ea87925e8/logo-app-store__1_.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=145&s=6d86a5cced84f0d1c291e8f7f3766d94 145w,https://ftr.imgix.net/1M9rXiS2D3MRleeMjlRR4H/113eb68b301e9ad8e878734ea87925e8/logo-app-store__1_.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=290&s=bbf6de3e1662aa4c5fe59c7a987cb285 290w" alt="App Store logo."></div>
-                                    <img loading="lazy" width="134" src="https://ftr.imgix.net/74dVvGk9hdsfBKnF1wpKex/7ae95c96569fe3484d13b1fadb704730/Apple-app-store-rating.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=134&s=a5111fbfc464b39212116a6db82e3672" srcset="https://ftr.imgix.net/74dVvGk9hdsfBKnF1wpKex/7ae95c96569fe3484d13b1fadb704730/Apple-app-store-rating.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=134&s=a5111fbfc464b39212116a6db82e3672 134w,https://ftr.imgix.net/74dVvGk9hdsfBKnF1wpKex/7ae95c96569fe3484d13b1fadb704730/Apple-app-store-rating.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=268&s=cbd895531f3e8270dd394417df52bedf 268w" alt="App Store logo.">
-                                    <p>(( text_85 ))</p>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="cards-col perfil">
-                           <div class="home-card">
-                              <div class="home-card-avatar"><img loading="lazy" width="80" src="https://ftr.imgix.net/7lQ18j7ECb9uncjpLoNqYK/41a5c22522e55af04349ef9dc45549e6/home-review-avatar-1.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=80&s=c3eecff9f24850b1c74a609dfd5bc72a" srcset="https://ftr.imgix.net/7lQ18j7ECb9uncjpLoNqYK/41a5c22522e55af04349ef9dc45549e6/home-review-avatar-1.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=80&s=c3eecff9f24850b1c74a609dfd5bc72a 80w,https://ftr.imgix.net/7lQ18j7ECb9uncjpLoNqYK/41a5c22522e55af04349ef9dc45549e6/home-review-avatar-1.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=160&s=ce075f419be42d1b74f2a2c8fbb13f5b 160w" alt="Default avatar."></div>
-                              <div class="home-card-text">(( text_86 ))</div>
-                              <div class="home-card-footer"><span class="home-card-handle">(( text_87 ))</span></div>
-                           </div>
-                        </div>
-                        <div class="cards-col perfil">
-                           <div class="home-card">
-                              <div class="home-card-avatar"><img loading="lazy" width="80" src="https://ftr.imgix.net/4VFhAJ38RpY7OyTWgNsYh8/2e4b398eca66a54e23b6be6db58d3d95/home-review-avatar-2.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=80&s=09c023dc34e10471177cf3e53d2cdf49" srcset="https://ftr.imgix.net/4VFhAJ38RpY7OyTWgNsYh8/2e4b398eca66a54e23b6be6db58d3d95/home-review-avatar-2.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=80&s=09c023dc34e10471177cf3e53d2cdf49 80w,https://ftr.imgix.net/4VFhAJ38RpY7OyTWgNsYh8/2e4b398eca66a54e23b6be6db58d3d95/home-review-avatar-2.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=160&s=3b8c98b133496000753822e1ff289962 160w" alt="Default avatar."></div>
-                              <div class="home-card-text">(( text_88 ))</div>
-                              <div class="home-card-footer"><span class="home-card-handle">(( text_89 ))</span></div>
-                           </div>
-                        </div>
-                        <div class="cards-col experiencia">
-                           <div class="home-card">
-                              <div class="home-card-avatar"><img loading="lazy" width="80" src="https://ftr.imgix.net/65BJQuqwmiteyi0KhxMEZH/b0cd1cfc7b992116c55e96c3bb9988ed/DustinGreiger.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=80&s=30abd3fdffc0348474ea0c206038b946" srcset="https://ftr.imgix.net/65BJQuqwmiteyi0KhxMEZH/b0cd1cfc7b992116c55e96c3bb9988ed/DustinGreiger.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=80&s=30abd3fdffc0348474ea0c206038b946 80w,https://ftr.imgix.net/65BJQuqwmiteyi0KhxMEZH/b0cd1cfc7b992116c55e96c3bb9988ed/DustinGreiger.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=160&s=e246ce496d52ae50c759e3b281d5314f 160w" alt="Dustin Greiger avatar."></div>
-                              <div class="home-card-text">(( text_90 ))</div>
-                              <div class="home-card-footer">
-                                 <span class="home-card-handle">(( text_91 ))</span>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="cards-col experiencia">
-                           <div class="home-card">
-                              <div class="home-card-avatar"><img loading="lazy" width="80" src="https://ftr.imgix.net/cCH466muAXPvv2bxwDjyJ/c4e21456178354878d9033d485771ede/Nill088.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=80&s=4b38bd17b6041f7f3756cd36d9ee1c0b" srcset="https://ftr.imgix.net/cCH466muAXPvv2bxwDjyJ/c4e21456178354878d9033d485771ede/Nill088.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=80&s=4b38bd17b6041f7f3756cd36d9ee1c0b 80w,https://ftr.imgix.net/cCH466muAXPvv2bxwDjyJ/c4e21456178354878d9033d485771ede/Nill088.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=160&s=73fa373a7563cbf305912a732aaab433 160w" alt="Nill088 avatar."></div>
-                              <div class="home-card-text">(( text_92 ))</div>
-                              <div class="home-card-footer">
-                                 <span class="home-card-handle">(( text_93 ))</span>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="cards-col experiencia">
-                           <div class="home-card">
-                              <div class="home-card-avatar"><img loading="lazy" width="80" src="https://ftr.imgix.net/7KvOAq3AMPtj6N4Nru1AgH/2aa88c0c39c5132a4591b8615c2637ad/JonNarong.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=80&s=50f0c549ee0f4651236937f61df1971e" srcset="https://ftr.imgix.net/7KvOAq3AMPtj6N4Nru1AgH/2aa88c0c39c5132a4591b8615c2637ad/JonNarong.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=80&s=50f0c549ee0f4651236937f61df1971e 80w,https://ftr.imgix.net/7KvOAq3AMPtj6N4Nru1AgH/2aa88c0c39c5132a4591b8615c2637ad/JonNarong.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=160&s=45f574f4d64bad027690b181bfbad3b3 160w" alt="Jon Narong avatar."></div>
-                              <div class="home-card-text">(( text_95 ))</div>
-                              <div class="home-card-footer">
-                                 <span class="home-card-handle">(( text_96 ))</span>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="cards-col biografia">
-                           <div class="home-card">
-                              <div class="home-card-img"><img loading="lazy" width="340" src="https://ftr.imgix.net/4r1rbRJI2poAWINoZwTlUj/0d87fb104ccfe36ea421c8ee55b7aea9/PCWorld-logo.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=340&s=719bb0d24fcd097ba7caf56d9266a6cd" srcset="https://ftr.imgix.net/4r1rbRJI2poAWINoZwTlUj/0d87fb104ccfe36ea421c8ee55b7aea9/PCWorld-logo.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=340&s=719bb0d24fcd097ba7caf56d9266a6cd 340w,https://ftr.imgix.net/4r1rbRJI2poAWINoZwTlUj/0d87fb104ccfe36ea421c8ee55b7aea9/PCWorld-logo.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=680&s=23b9994dc8ca673da72763bfc8a57a8b 680w" alt=" ExpressVPN’s performance is great. Consistently good speeds."></div>
-                              <div class="home-card-text">(( text_97 ))</div>
-                           </div>
-                        </div>
-                        <div class="cards-col biografia">
-                           <div class="home-card">
-                              <div class="home-card-img"><img loading="lazy" width="340" src="https://ftr.imgix.net/ZJZEJAbjxUYxPasUEzlE3/65dbcc8251da5d9f683321b57b7f99c3/techradar-logo.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=340&s=3b771c6387ab5ff9bce2989a89d660ea" srcset="https://ftr.imgix.net/ZJZEJAbjxUYxPasUEzlE3/65dbcc8251da5d9f683321b57b7f99c3/techradar-logo.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=340&s=3b771c6387ab5ff9bce2989a89d660ea 340w,https://ftr.imgix.net/ZJZEJAbjxUYxPasUEzlE3/65dbcc8251da5d9f683321b57b7f99c3/techradar-logo.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=680&s=1b7b4a460055634a7f607dd2d94a7715 680w" alt="The best offshore VPN for privacy."></div>
-                              <div class="home-card-text">(( text_98 ))</div>
-                           </div>
-                        </div>
-                        <div class="cards-col biografia">
-                           <div class="home-card">
-                              <div class="home-card-img"><img loading="lazy" width="340" src="https://ftr.imgix.net/3lurquUi4y8UvCK9J3FzHc/aaeffba1eb7cae8ab5a8cd980525d73c/Huffpost-logo.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=340&s=4499833deabc664c0b0c2d6732b06faf" srcset="https://ftr.imgix.net/3lurquUi4y8UvCK9J3FzHc/aaeffba1eb7cae8ab5a8cd980525d73c/Huffpost-logo.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=340&s=4499833deabc664c0b0c2d6732b06faf 340w,https://ftr.imgix.net/3lurquUi4y8UvCK9J3FzHc/aaeffba1eb7cae8ab5a8cd980525d73c/Huffpost-logo.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=680&s=6b800b43934e54175441f1f544b95efd 680w" alt="ExpressVPN is the best VPN service we’ve tested."></div>
-                              <div class="home-card-text">(( text_99 ))</div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </section>
-         <section class="chat-and-mbg-home-block">
-            <div class="container">
-               <div class="row">
-                  <div class="column">
-                     <div class="grid-item">
-                        <div class="grid-item-top-content">
-                           <div class="grid-item-img"><img loading="lazy" width="370" src="https://ftr.imgix.net/5vtGHt7FfNFaahUXC9v1C5/9f772cc812726808eeb288fc3cc2144c/home-24-hour-support.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=370&s=9a3a7b585235f1c5a7619ded9c2d61b2" srcset="https://ftr.imgix.net/5vtGHt7FfNFaahUXC9v1C5/9f772cc812726808eeb288fc3cc2144c/home-24-hour-support.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=370&s=9a3a7b585235f1c5a7619ded9c2d61b2 370w,https://ftr.imgix.net/5vtGHt7FfNFaahUXC9v1C5/9f772cc812726808eeb288fc3cc2144c/home-24-hour-support.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=720&s=46bfee6b45b28559409b0a374d15acc8 720w" alt="24-hour support speech bubbles." class="img-block"></div>
-                           <h3 class="grid-item-heading">(( text_100 ))</h3>
-                           <p class="grid-item-text">(( text_101 ))</p>
-                        </div>
-                        <div class="grid-item-cta"><a href="https://www.expressvpn.com/support/" target="_self" class="btn secondary">(( text_102 ))</a></div>
-                     </div>
-                  </div>
-                  <div class="column">
-                     <div class="grid-item">
-                        <div class="grid-item-top-content">
-                           <div class="grid-item-img"><img loading="lazy" width="370" src="https://ftr.imgix.net/2W2x9qsd1l0T7GbOMxJt3m/466df18d330d5b75cb718395e82a1da7/home-30-days-money-back-guarantee.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=370&s=64759b6da883670e734430956fa1bcb1" srcset="https://ftr.imgix.net/2W2x9qsd1l0T7GbOMxJt3m/466df18d330d5b75cb718395e82a1da7/home-30-days-money-back-guarantee.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=370&s=64759b6da883670e734430956fa1bcb1 370w,https://ftr.imgix.net/2W2x9qsd1l0T7GbOMxJt3m/466df18d330d5b75cb718395e82a1da7/home-30-days-money-back-guarantee.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=720&s=53c1b664dda7a4879d7ea864e0127b7a 720w" alt="30 days money back guarantee." class="img-block"></div>
-                           <h3 class="grid-item-heading">(( text_103 ))</h3>
-                           <p class="grid-item-text">(( text_104 ))</p>
-                        </div>
-                        <div class="grid-item-cta"><a href="https://www.expressvpn.com/order" target="_self" class="btn primary">(( text_105 ))</a></div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </section>
+
+         @include('sections/group')
+
+         @include('sections/tabs') 
+         
+         @include('sections/chat')
+
          <div class="sticky-cta">
             <div class="button-group btn-center"><a href="https://www.expressvpn.com/order" target="_self" class="btn primary primary-sm">Get ExpressVPN</a></div>
             <p class="footnote">30-day money-back guarantee</p>
